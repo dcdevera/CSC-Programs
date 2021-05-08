@@ -1,0 +1,21 @@
+import java.util.*
+import java.io.*
+
+public class GreetingCard
+{
+	public static void main forgetMeNot (int n)
+	{
+		in(n!=0)
+		{
+			System.out.println("I miss you");
+			forgetMeNot(n-1); //recursive call
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		forgotMeNot(3);
+		System.out.println();
+		System.out.println("Love, Me");
+	}
+}	
